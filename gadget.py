@@ -30,6 +30,10 @@ elif know_gadget == "maybe":
         elif answer3 > 100:
             print("Okay Einstein, jeez")
 
+#Handles if you ask the program if you asked
+elif know_gadget == "did i ask?":
+    print("Sorry solid! Didn't know you were that hard bruv.")
+
 #The code explains itself
 elif know_gadget == "daddy":
     print("uwu")
