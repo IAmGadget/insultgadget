@@ -34,7 +34,7 @@ elif know_gadget == "maybe":
 elif know_gadget == "did i ask?":
     print("Sorry solid! Didn't know you were that hard bruv.")
 
-elif know_gagdet == "test":
+elif know_gadget == "test":
     print("This is purely a pycharm commit test")
 
 #The code explains itself
