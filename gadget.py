@@ -9,7 +9,7 @@ if know_gadget == "yes":
     elif answer1 == "no":
         print("Well than you must also be a complete idiot if you think that!")
     else:
-        print("I do not understand you, you complete imbocile")
+        print("I do not understand you, you complete imbecile")
 
 #Handles if the answer to section 1 is no
 elif know_gadget == "no":
@@ -29,10 +29,19 @@ elif know_gadget == "maybe":
             print("Guess you aren't as dumb as I initially thought... you can still get outta here though!")
         elif answer3 > 100:
             print("Okay Einstein, jeez")
+            answer3_1 = int(input("If you're really so smart, whats 9+10? "))
+            if answer3_1 == 21:
+                print("Damn, you really are super smart!")
+            else:
+                print("WRONG! You must have lied about your IQ!")
 
 #Handles if you ask the program if you asked
 elif know_gadget == "did i ask?":
     print("Sorry solid! Didn't know you were that hard bruv.")
+
+#Handles if you ask the program who it is (WIP)
+elif know_gadget == "wip_who are you":
+    answer4 = input("Why does it matter who I am? ")
 
 #The code explains itself
 elif know_gadget == "daddy":
@@ -40,4 +49,4 @@ elif know_gadget == "daddy":
 
 #Handles if the user inputs anything but 'yes', 'no' or 'maybe' into section 1
 else:
-    print("I do not understand you, you complete imbocile")
+    print("I do not understand you, you complete imbecile")
