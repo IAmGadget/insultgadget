@@ -40,7 +40,7 @@ elif know_gadget == "did i ask?":
     print("Sorry solid! Didn't know you were that hard bruv.")
 
 # Handles if you ask the program who it is (WIP)
-elif know_gadget == "wip_who are you":
+elif know_gadget == "wip_who are you" or "WAY":
     answer4 = input("Why does it matter who I am? ")
     if answer4 == "clout check":
         print("Stop talking to me right now, goodbye!")  # END
@@ -50,14 +50,14 @@ elif know_gadget == "wip_who are you":
             print("Then bugger off! I'm done talking to you!")  # END
         elif answer4_1 == "okay":
             print("You say that but did not elaborate. I'm done talking to you.")  # END
-    elif answer4 == "stranger danger":
+    elif answer4 == "stranger danger" or "SD":
         answer4_2 = input("Fine! I am a python program designed to insult. ")
         if answer4_2 == "still stranger danger":
             answer4_3 = input("I LITERALLY JUST TOLD YOU I AM A PYTHON PROGRAM!!! ")
             if answer4_3 == "dont care":
                 print("Well I don't care about you then!")
                 exit(69)
-    elif answer4 == "shut up non":
+    elif answer4 == "shut up non" or "non":
         answer4_4 = input("What do you think this is? Hypixel?? ")
         if answer4_4 == "yes":
             answer4_5 = input("This program is way better than that pile of ass server! ")
