@@ -57,6 +57,16 @@ elif know_gadget == "wip_who are you":
             if answer4_3 == "dont care":
                 print("Well I don't care about you then!")
                 exit(69)
+    elif answer4 == "shut up non":
+        answer4_4 = input("What do you think this is? Hypixel?? ")
+        if answer4_4 == "yes":
+            answer4_5 = input("This program is way better than that pile of ass server! ")
+            if answer4_5 == "no its not":
+                print("I will not take this slander! Good day sir!!")
+                exit("Eat ass")
+            elif answer4_5 == "true":
+                answer4_6 = input("At least we can agree on something. ")
+
 
 # The code explains itself
 elif know_gadget == "daddy":
