@@ -39,8 +39,8 @@ elif know_gadget == "maybe":
 elif know_gadget == "did i ask?":
     print("Sorry solid! Didn't know you were that hard bruv.")
 
-# Handles if you ask the program who it is (WIP)
-elif know_gadget == "wip_who are you" or "WAY":
+# Handles if you ask the program who it is
+elif know_gadget == "who are you" or "WAY":
     answer4 = input("Why does it matter who I am? ")
     if answer4 == "clout check":
         print("Stop talking to me right now, goodbye!")  # END
