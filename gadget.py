@@ -44,12 +44,14 @@ elif know_gadget == "wip_who are you" or "WAY":
     answer4 = input("Why does it matter who I am? ")
     if answer4 == "clout check":
         print("Stop talking to me right now, goodbye!")  # END
-    elif answer4 == "it just does":
+    elif answer4 == "it just does" or "JD":
         answer4_1 = input("Can you please elaborate! You are wasting my time!! ")
         if answer4_1 == "no":
             print("Then bugger off! I'm done talking to you!")  # END
         elif answer4_1 == "okay":
-            print("You say that but did not elaborate. I'm done talking to you.")  # END
+            print("You say that but did not elaborate. I'm done talking to you.")
+        elif answer4_1 == "why":
+            print("Because I have no idea what you are talking about! Now bugger off!!")  # END
     elif answer4 == "stranger danger" or "SD":
         answer4_2 = input("Fine! I am a python program designed to insult. ")
         if answer4_2 == "still stranger danger":
