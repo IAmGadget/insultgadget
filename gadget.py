@@ -68,6 +68,9 @@ elif know_gadget == "who are you" or "WAY":
                 exit("Eat ass")
             elif answer4_5 == "true":
                 answer4_6 = input("At least we can agree on something. ")
+                if answer4_6 == "prankd":
+                    print("Bruh moment")
+                    exit("Dies of cringe")
 
 
 # The code explains itself
