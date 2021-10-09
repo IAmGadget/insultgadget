@@ -71,6 +71,8 @@ elif know_gadget == "who are you" or "WAY":
                 if answer4_6 == "prankd":
                     print("Bruh moment")
                     exit("Dies of cringe")
+        else:
+            exit(0)
 
 
 # The code explains itself
